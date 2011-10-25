@@ -13,10 +13,13 @@ And then you are good to go.
 
 == tests
 
-The tests on this repo are a copy of Class-Common's . They might not be the latest version.
+The tests are stored on a git submodule. Use the following commands to get them
 
-Use this command to execute the tests:
+    git ule init
+    git submodule update
 
-    lua tests.lua middleclass
+Then launch the tests like this:
+
+    lua tests/tests.lua middleclass
 
 That should do it.
