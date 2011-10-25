@@ -1,0 +1,22 @@
+== middleclass-commons
+
+This is a small middleclass plug-in that makes it possible to use middleclass with Class-Commons (https://github.com/bartbes/Class-Commons)
+
+In order to make middleclass compliant with Class-Common's specs, you must download and install middleclass-commons right after you do the same with middleclass:
+
+
+    require 'middleclass'
+    require 'middleclass-commons'
+
+
+And then you are good to go.
+
+== tests
+
+The tests on this repo are a copy of Class-Common's . They might not be the latest version.
+
+Use this command to execute the tests:
+
+    lua tests.lua middleclass
+
+That should do it.
