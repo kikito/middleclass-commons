@@ -15,11 +15,11 @@ And then you are good to go.
 
 The tests are stored on a git submodule. Use the following commands to get them
 
-    git ule init
+    git submodule init
     git submodule update
 
 Then launch the tests like this:
 
-    lua tests/tests.lua middleclass
+    lua tests/tests.lua middleclass_test
 
 That should do it.
