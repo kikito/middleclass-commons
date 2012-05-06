@@ -21,7 +21,7 @@ if common_class ~= false then
     return c
   end
 
-  function common.instantiate(class, ...)
+  function common.instance(class, ...)
     return class:new(...)
   end
 end
