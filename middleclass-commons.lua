@@ -6,6 +6,8 @@
 
 -- Based *Heavily* on a pull request made by Bart van Strien - https://github.com/kikito/middleclass/pull/12
 
+class = require('middleclass')
+
 if common_class ~= false then
   common = type(common) == "table" and common or {}
 
